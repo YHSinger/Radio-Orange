@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Main</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<Style>
+  p{
+    text-align: left;
+  }
+    body{
+    background-image: none;
+  }
+html {
+  background: orange;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+div, h2, p, figure {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1040px;
+  padding: 20px;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.main-column {
+  flex: 3;
+}
+
+.nested-column {
+  flex: 2;
+}
+
+.article {
+  background: white;
+  color: #666;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-basis: auto;
+  margin: 10px;
+}
+
+.article-image {
+  background: #eee;
+  display: block;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.article-image img {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.article-image.is-3by2 {
+  padding-top: 66.6666%;
+}
+
+.article-image.is-16by9 {
+  padding-top: 56.25%;
+}
+
+.article-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+}
+
+.article-title {
+  color: #333;
+  flex-shrink: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.article-content {
+  flex: 1;
+  margin-top: 5px;
+}
+
+.article-info {
+  display: flex;
+  font-size: 0.85em;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+</Style>
+<body>
+  </div>
+<div class="navbar">
+  <div class="a-container" >
+  <a target="_blank" href="index.html">Home</a>
+  <a class="active" target="_blank" href="Aritcle-main.html">News</a>
+  <a target="_blank" href="contact.html" >Contact</a>
+  <a  target="_blank" href="staff.html">Our Staff</a>
+  <a target="_blank" href="timetable.html">Show Times</a>
+  </div>
+  <div class="search">
+        <form method="get">
+          <input type="search" name="s" id="">
+          <button>Search</button>
+        </form>
+      </div>
+
+</div>
+
+<main class="main columns">
+  <section class="column main-column">
+        <img src="Pictures/Article pictures/instruments.jpg" alt="">
+      <div class="article-body">
+        <h2 class="article-title">
+          Hello World
+        </h2>
+        <p class="article-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros.
+          <a target="_blank" href="‏‏Aritcle1.html">Click here for the full article</a>
+        </p>
+      </div>
+    </a>
+
+    <div class="columns">
+      <div class="column nested-column">
+            <img src="Pictures/Article pictures/bass.jpg" alt="">
+          <div class="article-body">
+            <h2 class="article-title">
+              Hello World
+            </h2>
+            <p class="article-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+              <a target="_blank" href="‏‏Aritcle2.html">Click here for the full article</a>
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="column">
+            <img src="Pictures/Article pictures/headphones.jpg" alt="">
+          <div class="article-body">
+            <h2 class="article-title">
+              Hello World
+            </h2>
+            <p class="article-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <a  target="_blank" href="‏‏Aritcle3.html"> Click here for the full article</a>
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="column">
+        <img src="Pictures/Article pictures/sound board.jpg" alt="">
+      <div class="article-body">
+        <h2 class="article-title">
+          Hello World
+        </h2>
+        <p class="article-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <a target="_blank" href="‏‏Aritcle4.html"> Click here for the full article</a>
+        </p>
+      </div>
+    </a>
+    <a class="article" href="#">
+      <div class="article-body">
+        <h2 class="article-title">
+          Hello World
+        </h2>
+        <p class="article-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+      </div>
+    </a>
+  </section>
+</main>
+
+  </div>
+</a>
+    
+</body>
+</html>

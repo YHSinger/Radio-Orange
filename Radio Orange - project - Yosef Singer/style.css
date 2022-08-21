@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  box-shadow: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: orange;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+body {
+  background-image: url(pictures/Logo/logo\ orange.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background: orangered;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  display: grid;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-flow: row;
+}
+
+/* Navbar start */
+.a-container {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  background-color: black;
+}
+
+.navbar a:hover {
+  background-color: rgb(173, 135, 64);
+  color: black;
+}
+
+.navbar a.active {
+  background-color: orange;
+  color: white;
+}
+
+.search {
+  text-align: right;
+  padding: 14px 16px;
+}
+
+/* Navbar end */
+h1 {
+  color: orange;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+/* Contact page start */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #a58f52;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #dab617;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container form {
+  margin-top: 10px;
+  width: 500px;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* contact page end */
+
+aside {
+  width: auto;
+  height: auto;
+  float: right;
+  font-style: italic;
+  background-color: orange;
+  font-size: 18px;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 17pt;
+}
+
+/*staff page*/
+
+.column {
+  width: 45%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+
+.staff-container {
+  padding: 5px 16px;
+  background-color: orange;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/*staff page end */
+/*table page start */
+table {
+  margin-top: 2%;
+  width: max-content;
+  border: 1px solid black;
+  height: 300px;
+  margin-left: 23%;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+/*table page end */

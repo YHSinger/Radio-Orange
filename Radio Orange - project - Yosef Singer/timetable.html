@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<style>
+table{
+   margin-top: 10%;
+   margin-left: auto;
+   margin-right:auto;
+   text-align: center;
+}
+td{
+  background-image: linear-gradient(orange 10%, white 80%, orange 10%);
+}
+
+tr{
+  background-color: white;
+}
+tbody{
+  background-color: white;
+}
+
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt {
+  font-weight: bold;
+  color: rgb(202, 142, 30);
+  z-index:99;
+}
+
+.hiddentxt a {
+  color: rgb(202, 142, 30);
+  text-decoration: none;
+  z-index: 99;
+}
+
+.hiddenclick {
+  font-weight: bold;
+  color: rgb(202, 142, 30);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hiddenclick a {
+  color: rgb(202, 142, 30);
+  text-decoration: none;
+}
+
+.hiddenclick a:visited {
+  color: rgb(202, 142, 30);
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+  position: absolute;
+    z-index: 2
+}
+
+.hiddenclickimg {
+  display: none;
+
+}
+</style>
+<body>
+
+<div class="navbar">
+   <div class="a-container" >
+   <a  target="_blank" href="index.html">Home</a>
+  <a target="_blank" href="Aritcle-main.html">News</a>
+  <a target="_blank" href="contact.html" >Contact</a>
+  <a  target="_blank" href="staff.html">Our Staff</a>
+  <a  class="active"   target="_blank" href="timetable.html">Show Times</a>
+  </div>
+  <div class="search">
+        <form method="get">
+          <input type="search" name="s" id="">
+          <button>Search</button>
+        </form>
+      </div>
+  </div>
+      <header>
+         <h1>Radio_Orange Show Time Table</h1>
+      </header>
+      <table>
+         <thead>
+            <tr>
+               <td id="sub1">         </td>
+               <td id="sub">7:00-10:00</td>
+               <td id="sub">10:00-13:00</td>
+               <td id="sub">13:00-15:00</td>
+               <td id="sub">15:00-19:00</td>
+               <td id="sub">19:00-22:00</td>
+               <td id="sub">22:00-00:00</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td id="sub">Sunday</td>
+               <td id="box1"> <span class="hiddentxt"><a href="Pictures/Staff pictures/brooke-cagle.jpg">Brooks </a></span>Morning Show<span class="hiddenimg"><img src="Pictures/Staff pictures/brooke-cagle.jpg" width="250" />/<span>.</span></span></td>
+               <td id="box2">Late morning with <span class="hiddentxt"><a href="Pictures/Staff pictures/george-goldman.jpg">George </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/george-goldman.jpg" width="250" />/<span>.</td>
+               <td id="box3">Lunchtime with <span class="hiddentxt"><a href="Pictures/Staff pictures/huston-wilson.jpg">Huston </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/huston-wilson.jpg" width="250" />/<span>.</td>
+              <td id="box4">Afternoon Wrap up with <span class="hiddentxt"><a href="Pictures/Staff pictures/ian-dooley.jpg">Ian </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/ian-dooley.jpg" width="250" />/<span>.</td>
+              <td id="box5">Evening show with <span class="hiddentxt"><a href="Pictures/Staff pictures/shay-ferrero.jpg ">Shay </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/shay-ferrero.jpg" width="250" />/<span>.</td>
+              <td id="box5">Late Night with <span class="hiddentxt"><a href="Pictures/Staff pictures/Natalie-bergman.jpg ">Natalie </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/Natalie-bergman.jpg" width="250" />/<span>.</td>
+            </tr>
+            <tr>
+              <td id="sub">Monday</td>
+              <td id="box1"> <span class="hiddentxt"><a href="Pictures/Staff pictures/brooke-cagle.jpg">Brooks </a></span>Morning Show<span class="hiddenimg"><img src="Pictures/Staff pictures/brooke-cagle.jpg" width="250" />/<span>.</td>
+              <td id="box2">Late morning with <span class="hiddentxt"><a href="Pictures/Staff pictures/george-goldman.jpg">George </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/george-goldman.jpg" width="250" />/<span>.</td>
+              <td id="box3">Lunchtime with <span class="hiddentxt"><a href="Pictures/Staff pictures/huston-wilson.jpg">Huston </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/huston-wilson.jpg" width="250" />/<span>.</td>
+              <td id="box4">Afternoon Wrap up with <span class="hiddentxt"><a href="Pictures/Staff pictures/ian-dooley.jpg">Ian </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/ian-dooley.jpg" width="250" />/<span>.</td>
+              <td id="box5">Evening show with <span class="hiddentxt"><a href="Pictures/Staff pictures/shay-ferrero.jpg ">Shay </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/shay-ferrero.jpg" width="250" />/<span>.</td>
+              <td id="box5">Late Night with <span class="hiddentxt"><a href="Pictures/Staff pictures/Natalie-bergman.jpg ">Natalie </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/Natalie-bergman.jpg" width="250" />/<span>.</td>
+            </tr>
+            <tr>
+              <td id="sub">Tuesday</td>
+              <td id="box1"> <span class="hiddentxt"><a href="Pictures/Staff pictures/brooke-cagle.jpg">Brooks </a></span>Morning Show<span class="hiddenimg"><img src="Pictures/Staff pictures/brooke-cagle.jpg" width="250" />/<span>.</td>
+              <td id="box2">Late morning with <span class="hiddentxt"><a href="Pictures/Staff pictures/george-goldman.jpg">George </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/george-goldman.jpg" width="250" />/<span>.</td>
+              <td id="box3">Lunchtime with <span class="hiddentxt"><a href="Pictures/Staff pictures/huston-wilson.jpg">Huston </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/huston-wilson.jpg" width="250" />/<span>.</td>
+              <td id="box4">Afternoon Wrap up with <span class="hiddentxt"><a href="Pictures/Staff pictures/ian-dooley.jpg">Ian </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/ian-dooley.jpg" width="250" />/<span>.</td>
+              <td id="box5">Evening show with <span class="hiddentxt"><a href="Pictures/Staff pictures/shay-ferrero.jpg ">Shay </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/shay-ferrero.jpg" width="250" />/<span>.</td>
+              <td id="box5">Late Night with <span class="hiddentxt"><a href="Pictures/Staff pictures/Natalie-bergman.jpg ">Natalie </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/Natalie-bergman.jpg" width="250" />/<span>.</td>
+
+            </tr>
+            <tr>
+             <td id="sub">Wednesday</td>
+             <td id="box1"> <span class="hiddentxt"><a href="Pictures/Staff pictures/brooke-cagle.jpg">Brooks </a></span>Morning Show<span class="hiddenimg"><img src="Pictures/Staff pictures/brooke-cagle.jpg" width="250" />/<span>.</td>
+              <td id="box2">Late morning with <span class="hiddentxt"><a href="Pictures/Staff pictures/george-goldman.jpg">George </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/george-goldman.jpg" width="250" />/<span>.</td>
+              <td id="box3">Lunchtime with <span class="hiddentxt"><a href="Pictures/Staff pictures/huston-wilson.jpg">Huston </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/huston-wilson.jpg" width="250" />/<span>.</td>
+              <td id="box4">Afternoon Wrap up with <span class="hiddentxt"><a href="Pictures/Staff pictures/ian-dooley.jpg">Ian </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/ian-dooley.jpg" width="250" />/<span>.</td>
+              <td id="box5">Evening show with <span class="hiddentxt"><a href="Pictures/Staff pictures/shay-ferrero.jpg ">Shay </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/shay-ferrero.jpg" width="250" />/<span>.</td>
+              <td id="box5">Late Night with <span class="hiddentxt"><a href="Pictures/Staff pictures/Natalie-bergman.jpg ">Natalie </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/Natalie-bergman.jpg" width="250" />/<span>.</td>
+            </tr>
+            <tr>
+               <td id="sub">Thursday</td>
+               <td id="box1"> <span class="hiddentxt"><a href="Pictures/Staff pictures/brooke-cagle.jpg">Brooks </a></span>Morning Show<span class="hiddenimg"><img src="Pictures/Staff pictures/brooke-cagle.jpg" width="250" />/<span>.</td>
+                <td id="box2">Late morning with <span class="hiddentxt"><a href="Pictures/Staff pictures/george-goldman.jpg">George </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/george-goldman.jpg" width="250" />/<span>.</td>
+                <td id="box3">Lunchtime with <span class="hiddentxt"><a href="Pictures/Staff pictures/huston-wilson.jpg">Huston </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/huston-wilson.jpg" width="250" />/<span>.</td>
+                <td id="box4">Afternoon Wrap up with <span class="hiddentxt"><a href="Pictures/Staff pictures/ian-dooley.jpg">Ian </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/ian-dooley.jpg" width="250" />/<span>.</td>
+                <td id="box5">Evening show with <span class="hiddentxt"><a href="Pictures/Staff pictures/shay-ferrero.jpg ">Shay </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/shay-ferrero.jpg" width="250" />/<span>.</td>
+                <td id="box5">Late Night with <span class="hiddentxt"><a href="Pictures/Staff pictures/Natalie-bergman.jpg ">Natalie </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/Natalie-bergman.jpg" width="250" />/<span>.</td>
+            </tr>
+            <tr>
+              <td id="sub">Friday</td>
+              <td id="box1"> <span class="hiddentxt"><a href="Pictures/Staff pictures/brooke-cagle.jpg">Brooks </a></span>Morning Show<span class="hiddenimg"><img src="Pictures/Staff pictures/brooke-cagle.jpg" width="250" />/<span>.</td>
+              <td id="box2">Late morning with <span class="hiddentxt"><a href="Pictures/Staff pictures/george-goldman.jpg">George </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/george-goldman.jpg" width="250" />/<span>.</td>
+               <td id="box3">Lunchtime with <span class="hiddentxt"><a href="Pictures/Staff pictures/huston-wilson.jpg">Huston </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/huston-wilson.jpg" width="250" />/<span>.</td>d>
+              <td id="box4">Afternoon Wrap up with <span class="hiddentxt"><a href="Pictures/Staff pictures/ian-dooley.jpg">Ian </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/ian-dooley.jpg" width="250" />/<span>.</td>
+              <td id="box5">Evening show with <span class="hiddentxt"><a href="Pictures/Staff pictures/shay-ferrero.jpg ">Shay </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/shay-ferrero.jpg" width="250" />/<span>.</td>
+              <td id="box5">Late Night with <span class="hiddentxt"><a href="Pictures/Staff pictures/Natalie-bergman.jpg ">Natalie </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/Natalie-bergman.jpg" width="250" />/<span>.</td>
+            </tr>
+            <tr>
+              <td id="sub">Saturday</td>
+              <td id="box1"> <span class="hiddentxt"><a href="Pictures/Staff pictures/brooke-cagle.jpg">Brooks </a></span>Morning Show<span class="hiddenimg"><img src="Pictures/Staff pictures/brooke-cagle.jpg" width="250" />/<span>.</td>
+                <td id="box2">Late morning with <span class="hiddentxt"><a href="Pictures/Staff pictures/george-goldman.jpg">George </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/george-goldman.jpg" width="250" />/<span>.</td>
+                <td id="box3">Lunchtime with <span class="hiddentxt"><a href="Pictures/Staff pictures/huston-wilson.jpg">Huston </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/huston-wilson.jpg" width="250" />/<span>.</td>
+                <td id="box4">Afternoon Wrap up with <span class="hiddentxt"><a href="Pictures/Staff pictures/ian-dooley.jpg">Ian </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/ian-dooley.jpg" width="250" />/<span>.</td>
+                <td id="box5">Evening show with <span class="hiddentxt"><a href="Pictures/Staff pictures/shay-ferrero.jpg ">Shay </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/shay-ferrero.jpg" width="250" />/<span>.</td>
+                <td id="box5">Late Night with <span class="hiddentxt"><a href="Pictures/Staff pictures/Natalie-bergman.jpg ">Natalie </a></span><span class="hiddenimg"><img src="Pictures/Staff pictures/Natalie-bergman.jpg" width="250" />/<span>.</td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>
